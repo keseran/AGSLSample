@@ -15,8 +15,6 @@ import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.compose.FrostedGlassShaderScreen
-import com.example.compose.GenbaNekoAnimationShaderScreen
-import com.example.compose.GenbaNekoShaderScreen
 import com.example.compose.ImageShaderScreen
 import com.example.compose.LatticeShaderScreen
 import com.example.compose.MainScreen
@@ -70,15 +68,6 @@ class MainActivity : ComponentActivity() {
                         }
                         item {
                             StepShaderScreen()
-                        }
-                        item {
-                            Spacer(modifier = Modifier.height(16.dp))
-                        }
-                        item {
-                            Row(modifier = Modifier.fillMaxWidth()) {
-                                GenbaNekoShaderScreen()
-                                GenbaNekoAnimationShaderScreen()
-                            }
                         }
                         item {
                             Spacer(modifier = Modifier.height(16.dp))
